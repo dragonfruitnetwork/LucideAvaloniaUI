@@ -28,10 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="icon.png">
-      <Pack>True</Pack>
-      <PackagePath>icon.png</PackagePath>
-    </None>
+    <None Include=".\icon.png" Pack="true" PackagePath="." Visible="false"/>
   </ItemGroup>
 
 </Project>
