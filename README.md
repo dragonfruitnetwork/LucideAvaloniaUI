@@ -1,5 +1,5 @@
 # Lucide Icons for AvaloniaUI
-[![NuGet Version](https://img.shields.io/nuget/v/LucideAvalonia)](https://www.nuget.org/packages/LucideAvalonia)
+[![NuGet Version](https://img.shields.io/nuget/v/DragonFruit.LucideAvalonia)](https://www.nuget.org/packages/DragonFruit.LucideAvalonia)
 [![GitHub License](https://img.shields.io/github/license/MarwanFr/LucideAvaloniaUI)](https://github.com/MarwanFr/LucideAvaloniaUI/blob/main/LICENSE)
 
 ![Lucide Icons for AvaloniaUI](https://raw.githubusercontent.com/MarwanFr/LucideAvaloniaUI/main/image/Banner.webp)
@@ -21,19 +21,19 @@ This library is ideal for:
 ### Installation
 
 > [!WARNING]
-> This library is compatible with AvaloniaUI version 12.0.0 or higher. For AvaloniaUI 11.x, use LucideAvalonia version 1.6.2 or earlier.
+> This forked version is compatible with AvaloniaUI version 12.0.0 or higher. For AvaloniaUI 11.x, use LucideAvalonia version 1.6.2 or earlier.
 
 To install the library, you can use NuGet with the following command:
 
 ```sh
-dotnet add package LucideAvalonia
+dotnet add package DragonFruit.LucideAvalonia
 ```
 
 ### Usage
 
 To use the Lucide Icons in your AvaloniaUI project, add the following namespace declaration to the header of your AXAML file:
 ```axaml
-xmlns:lucideAvalonia="clr-namespace:LucideAvalonia;assembly=LucideAvalonia"
+xmlns:lucideAvalonia="clr-namespace:DragonFruit.LucideAvalonia;assembly=DragonFruit.LucideAvalonia"
 ```
 
 Integrating Lucide Icons into your AvaloniaUI project is straightforward. Below is an example demonstrating how to add a Heart icon to your AXAML file:
@@ -59,36 +59,11 @@ python tools/generate_icons.py --version <lucide-version>
 
 This downloads the Lucide SVGs and regenerates both `LucideAvalonia/Enum/LucideIconNames.cs` and `LucideAvalonia/Lucide/ResourcesIcons.axaml`.
 
-### Contribution
-
-We welcome contributions from the community to help improve and expand this library. If you encounter any issues or have suggestions, please open an issue or submit a pull request on our GitHub repository.
-
-### Contributors
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/MarwanFr">
-        <img src="https://github.com/MarwanFr.png" width="100;" alt="MarwanFr"/><br />
-        <sub><b>MarwanFr</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Reimnop">
-        <img src="https://github.com/Reimnop.png" width="100;" alt="Reimnop"/><br />
-        <sub><b>Reimnop</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/seltzdesign">
-        <img src="https://github.com/seltzdesign.png" width="100;" alt="seltzdesign"/><br />
-        <sub><b>seltzdesign</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
 ### Credit
+
+> [!NOTE]
+> This is a forked version of the original [LucideAvalonia](https://github.com/MarwanFr/LucideAvaloniaUI), updated primarily to support Avalonia 12 and refresh the icons to keep inline with the latest Lucide release.
+
 This project is made possible thanks to the following:
 
 - [AvaloniaUI](https://www.avaloniaui.net): The versatile and powerful UI framework.
