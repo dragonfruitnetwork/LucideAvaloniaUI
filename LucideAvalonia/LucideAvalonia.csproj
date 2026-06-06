@@ -11,14 +11,14 @@
   <PropertyGroup>
     <PackageIcon>icon.png</PackageIcon>
     <Title>LucideAvalonia</Title>
-    <Authors>Marwan</Authors>
+    <Authors>DragonFruit Network, Marwan et al.</Authors>
     <Description>A library for AvaloniaUI that integrates Lucide icons into your Avalonia applications.</Description>
     <Copyright>Marwan</Copyright>
-    <PackageProjectUrl>https://github.com/MarwanFr/LucideAvaloniaUI/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/MarwanFr/LucideAvaloniaUI/</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/dragonfruitnetwork/LucideAvaloniaUI/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dragonfruitnetwork/LucideAvaloniaUI/</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>LucideAvalonia</PackageId>
-    <Version>1.6.2</Version>
+    <PackageId>DragonFruit.LucideAvalonia</PackageId>
+    <Version>2.0.0</Version>
     <PackageTags>avalonia;icons;icon;ui;lucide;avaloniaui</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
